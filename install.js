@@ -18,6 +18,7 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install -r requirements.txt",
+          "uv pip install fastapi==0.122.0"
         ]
       }
     },
